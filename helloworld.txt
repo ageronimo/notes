@@ -1,8 +1,31 @@
+
+CLI - command line interface
+^means of interacting with a computer in the form of successive line of text
+
+GUI - graphic user interface
+^means of interacting with a computer using visual icons
+
+CLI Commands:
 cd - change directory
 cd / - root
-cd../ - move up
+cd .. - move up
 mkdir <folder> - create folder
 touch <filename> - creates file
 ls - list files/folders in current folder
 mkdir <file>/<file2> - creates file from current location
+function()
+
+*do not copy and paste
+
+Tools:
+- Github
+- Git Shell
+- Sublime Text
+
+Git Commands:
+git init - initialize project
+git statues - checks status of project
+"clean" - no red in status
+git add <filename>
+git commit -m 'this is my first commit for notes'
 
