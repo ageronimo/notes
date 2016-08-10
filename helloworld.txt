@@ -1,0 +1,8 @@
+cd - change directory
+cd / - root
+cd../ - move up
+mkdir <folder> - create folder
+touch <filename> - creates file
+ls - list files/folders in current folder
+mkdir <file>/<file2> - creates file from current location
+
