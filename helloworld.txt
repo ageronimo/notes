@@ -6,16 +6,21 @@ GUI - graphic user interface
 ^means of interacting with a computer using visual icons
 
 CLI Commands:
-cd - change directory
-cd / - root
-cd .. - move up
-mkdir <folder> - create folder
-touch <filename> - creates file
-ls - list files/folders in current folder
-mkdir <file>/<file2> - creates file from current location
+cd | change directory
+cd / | root
+cd .. | move up
+mkdir <folder> | create folder
+touch <filename> | creates file
+ls | list files/folders in current folder
+mkdir <file>/<file2> | creates file from current location
 function()
 
 *do not copy and paste
+
+3 Levels of Knowing:
+-understanding
+-teaching
+-grocking and intuition
 
 Tools:
 - Github
@@ -23,9 +28,19 @@ Tools:
 - Sublime Text
 
 Git Commands:
-git init - initialize project
-git statues - checks status of project
-"clean" - no red in status
-git add <filename>
-git commit -m 'this is my first commit for notes'
+git init | initialize project
+git status | checks status of project
+"clean" | no red in status
+git add <filename> |
+git commit -m 'this is my first commit for notes' | commits, adds to queue
+git push | takes everything from queue and uploads (remote)
 
+Traits of a developer:
+-team player
+-problem solver
+-good communicator
+
+text.txt vvv (working dir)
+staging vvv (git add)
+local git vvv (git commit)
+Github (git push)
