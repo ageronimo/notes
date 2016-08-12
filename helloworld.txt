@@ -34,12 +34,14 @@ git status | checks status of project
 git add <filename> |
 git commit -m 'this is my first commit for notes' | commits, adds to queue
 git push | takes everything from queue and uploads (remote)
+//upload process: add>commit>push
 
 Traits of a developer:
 -team player
 -problem solver
 -good communicator
 
+Uploading Process Sequence
 text.txt vvv (working dir)
 staging vvv (git add)
 local git vvv (git commit)
