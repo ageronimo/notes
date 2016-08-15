@@ -1,3 +1,11 @@
+(1)
+
+TABLE OF CONTENTS:
+1-Genral interface info
+2-Git Shell commands
+3-Basic knowledge (not coding)
+4-Git commands
+5-HTML
 
 CLI - command line interface
 ^means of interacting with a computer in the form of successive line of text
@@ -5,7 +13,10 @@ CLI - command line interface
 GUI - graphic user interface
 ^means of interacting with a computer using visual icons
 
+programming language: language designed to give instructions to a machine
+
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+(2)
 
 CLI Commands (Git Shell aka Power Shell):
 cd | change directory
@@ -18,6 +29,7 @@ mkdir <file>/<file2> | creates file from current location
 function()
 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+(3)
 
 *do not copy and paste
 
@@ -37,6 +49,7 @@ Traits of a developer:
 -good communicator
 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+(4)
 
 Git Commands:
 git init | initialize project
@@ -52,3 +65,42 @@ text.txt vvv (working dir)
 staging vvv (git add)
 local git vvv (git commit)
 Github (git push)
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+(5)
+
+HTML : mark up language
+
+<tags> | everything inside is structure, desc of code
+index.html | referred to as toc for site
+
+parts:
+-head
+-body
+-header
+-footer
+
+<!DOCTYPE html> | always wanted on every page | doctype defines doc
+</html> | tells browser you're writing in html
+ <meta charset="utf-8"> |sets secondary standards for character sets
+
+<p> | paragraph element
+</p> | closing tag
+<br/> | self closing tag
+
+-tags inside body are seen on website
+-head,body,html always have closing tags
+
+<header></header> | navigation, logos
+<footer></footer> | copyright
+<div></div> | block element, stacks instead of side to side
+<span></span> | inline elements
+
+-words can be wrapped in tags
+
+Attributes:
+<img src="http://something.com/myimage.jpg"/>
+
+<h1></h1> >> <h6></h6> | biggest to smallest text size
+<b></b> | bold
+<!--comment-->
