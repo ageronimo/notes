@@ -23,6 +23,8 @@ Design:
 UI: user interface | color, visually pleasing/aesthetic
 UX: user experience | organization, layout, etc
 
+add update delete
++ ~ - 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (2)
 
