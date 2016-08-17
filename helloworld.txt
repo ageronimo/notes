@@ -15,6 +15,16 @@ GUI - graphic user interface
 
 programming language: language designed to give instructions to a machine
 
+Websites:
+-pleasure and action between user and product
+-organization, etc
+
+UI: user interface
+UX: user experience
+
+UX: organization, layout, etc
+UI: color, visually pleasing/aesthetic
+
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (2)
 
@@ -104,3 +114,25 @@ Attributes:
 <h1></h1> >> <h6></h6> | biggest to smallest text size
 <b></b> | bold
 <!--comment-->
+
+Websites (poor structure):
+http://www.exmouth-view.co.uk/
+www.themostamazingwebsiteontheinternet.com
+
+Notes:
+-same text size, color, etc is bad
+-organization
+-order matters to some extent (header, footer, content, etc)
+
+2 types of lists:
+<ul> </ul> | unordered lists : bullet points, arrows, etc
+  <li> </li> | list child
+<ol> </ol> | ordered lists
+-lists can be put in lists
+-place divs
+-may include #'s and roman numerals
+<nav> </nav>
+
+Div:
+<div aside>
+<h3> title
