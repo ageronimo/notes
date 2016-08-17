@@ -19,11 +19,9 @@ Websites:
 -pleasure and action between user and product
 -organization, etc
 
-UI: user interface
-UX: user experience
-
-UX: organization, layout, etc
-UI: color, visually pleasing/aesthetic
+Design:
+UI: user interface | color, visually pleasing/aesthetic
+UX: user experience | organization, layout, etc
 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (2)
