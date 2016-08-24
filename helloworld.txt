@@ -18,12 +18,13 @@ programming language: language designed to give instructions to a machine
 Websites:
 -pleasure and action between user and product
 -organization, etc
+-better to open from local server than folder, less buggy
 
 Design:
 UI: user interface | color, visually pleasing/aesthetic
 UX: user experience | organization, layout, etc
 
-add update delete
+add update delete (status symbols in git respectively)
 + ~ - 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (2)
@@ -90,9 +91,12 @@ parts:
 -header
 -footer
 
-<!DOCTYPE html> | always wanted on every page | doctype defines doc
+<!DOCTYPE html> | always wanted on every page | doctype defines doc type
 </html> | tells browser you're writing in html
  <meta charset="utf-8"> |sets secondary standards for character sets
+<html lang="en"> | defines root of html doc
+  <head></head> | defines info about doc
+  <body></body> | defines doc body
 
 <p> | paragraph element
 </p> | closing tag
@@ -102,7 +106,7 @@ parts:
 -head,body,html always have closing tags
 
 <header></header> | navigation, logos
-<footer></footer> | copyright
+<footer></footer> | copyright, etc
 <div></div> | block element, stacks instead of side to side
 <span></span> | inline elements
 
@@ -113,7 +117,10 @@ Attributes:
 
 <h1></h1> >> <h6></h6> | biggest to smallest text size
 <b></b> | bold
-<!--comment-->
+<!--comment--> | (self explanatory)
+<div id=""> | only use once, can be used for linking elements
+<div class="" | can be used multiple times, use space to use more than one class, uses .
+<a href=""></a> | hyperlink reference, uses #
 
 Websites (poor structure):
 http://www.exmouth-view.co.uk/
@@ -123,6 +130,9 @@ Notes:
 -same text size, color, etc is bad
 -organization
 -order matters to some extent (header, footer, content, etc)
+-IDs are unique, only use once
+-html more structure
+-^css more visual
 
 2 types of lists:
 <ul> </ul> | unordered lists : bullet points, arrows, etc
@@ -130,9 +140,24 @@ Notes:
 <ol> </ol> | ordered lists
 -lists can be put in lists
 -place divs
--may include #'s and roman numerals
+-may include #s and roman numerals
 <nav> </nav>
 
 Div:
 <div aside>
 <h3> title
+
+Blog Entries:
+*make sure to close tags
+
+<div>
+  <class="content">
+  <h2>title
+  <h6>date
+  <div class="article">
+    <h3>
+    <p>
+   <div class="article">
+    <h3>
+    <p>
+</div>
