@@ -163,3 +163,26 @@ Blog Entries:
     <h3>
     <p>
 </div>
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+(6) CSS
+
+CSS | Cascading style sheets
+
+3 ways to add: 
+ 1.) In line styles (style="" att)
+ 2.) Internal using <style></style> element (within head)
+ 3.) External stylesheet linked within <head></head>
+
+CSS declarations
+ property:value;
+ close with {}
+
+Colors
+rgba | color transparency/opacity
+3 ways to add color values:
+  - valid color name
+      ex: h1 { color: red; }
+  - rgb value, aka rgba (a for transparency/opacity)
+      ex: #container {background-color: rgb(255,255,0;)}
+  - hex value
+      ex: .main_title { border 1pc #ff0000 solid; }
