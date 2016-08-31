@@ -177,6 +177,9 @@ CSS declarations
  property:value;
  close with {}
 
+-to group selectors w/ same style, use comma
+  ex: h1, h2, p { color: red; }
+  
 Colors
 rgba | color transparency/opacity
 3 ways to add color values:
