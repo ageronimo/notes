@@ -26,6 +26,8 @@ UX: user experience | organization, layout, etc
 
 add update delete (status symbols in git respectively)
 + ~ - 
+
+CSS - Cascade Style Sheets
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (2)
 
