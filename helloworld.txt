@@ -6,6 +6,7 @@ TABLE OF CONTENTS:
 3-Basic knowledge (not coding)
 4-Git commands
 5-HTML
+7-Verizon App Challenge
 
 CLI - command line interface
 ^means of interacting with a computer in the form of successive line of text
@@ -259,3 +260,21 @@ Light Purple/Blue/Green Palette:
   http://paletton.com/palette.php?uid=53V0G0k7UUa3cZA5wXlaiQ5cFL3
 
 
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+(7) Verizon App Challenge
+
+Brainstorm:
+Club Communication | self explanatory, like a Remind for clubs
+List | makes lists of any kind and can setup reminders
+Calming | plays music or videos to help people calm down/ relax
+Art Idea | generate topic or pic of inspiration
+
+Pitching: delivering business plan verbally
+  ex: entrepeneur pitches to investors
+2 parts: elevator, high concept and traction
+high concept: desc app in one sentence
+  -use familiar terms
+  -what and who
+traction: proof,data
+mvp: minimal viable product | gets u data, testable, reduce wasting time, validates app
+high concept+traction=elevator pitch
