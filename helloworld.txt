@@ -204,10 +204,12 @@ Grouping Selectors
   ex: 
     h1, h2, p { color: red; }
 
-  Helpful Links:
+  
+-HELPFUL LINKS-
     https://css-tricks.com/how-css-selectors-work/
     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
     https://css-tricks.com/all-about-floats
+    kellishouts.github.io/css-properties/
 
 Font
 
@@ -227,6 +229,9 @@ Borders
   - not as specific as margins
   -3 main values: size-solid/etc-color
 
+
+  *there's a border radius generator
+
 Padding
   having only 1 value applies to all 4 sides
   2 is top/bott and left/right
@@ -240,10 +245,6 @@ Box Flow
 Float
 -similar to word wrapping
 
-What I Want to Do to My Website:
--line under blog title
--change color of heading text
--color of divs: pastel blue or pink
 
 Light Blue Pastel Color Palette:
   .color-primary-0 { color: #619EF3 } /* Main Primary color */
@@ -257,8 +258,11 @@ Light Blue Pastel Color Palette:
 
 Light Purple/Blue/Green Palette:
   Link
-  http://paletton.com/palette.php?uid=53V0G0k7UUa3cZA5wXlaiQ5cFL3
+  http://paletton.com/palette.php?uid=53V0G0k7UUa
 
+*get around to learning box-sizing
+
+:after | applies css after element
 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (7) Verizon App Challenge
