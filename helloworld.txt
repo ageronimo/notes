@@ -210,6 +210,9 @@ Grouping Selectors
     https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
     https://css-tricks.com/all-about-floats
     kellishouts.github.io/css-properties/
+    https://fonts.google.com/
+    http://www.myhtmltutorials.com/line.html
+    https:// www.w3schools.com
 
 Font
 
@@ -264,6 +267,30 @@ Light Purple/Blue/Green Palette:
 
 :after | applies css after element
 
+
+~Following Along in Class~
+.hero {
+  border: 1px solid #000;
+  height:
+  background-image: url('../assets/hero.png');
+  background-repeat: no-repeat;
+  bakground-position: top right;
+}
+
+//May Paste Back Later\\
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#pricing">Pricing</a>
+      </li>
+      <li>
+        <a href="#howitwork">How It Works</a>
+      </li>
+
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (7) Verizon App Challenge
 
@@ -282,3 +309,28 @@ high concept: desc app in one sentence
 traction: proof,data
 mvp: minimal viable product | gets u data, testable, reduce wasting time, validates app
 high concept+traction=elevator pitch
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+(8) Random answers (CSS and HTML)
+Responsive Design | building a site to respond to multiple sizes also known as fluid design
+  ex. Google, Facebook, 
+
+Grid Based Design | web design with grid content
+  ex. Pinterest, tumblr
+
+media queries | tell design to change/ adapt AKA break points in css that tell your app to change accoridng to screen size
+  ex. <style>
+        @media(max-width:600px){
+          .facet-sidebar{
+          display:none;
+          }
+        }
+
+em (in css) | unit of measure in CSS that adjusts to parent, usually used for font size, adjusts size to parent. em for responsive 
+design while px is for static pages
+
+pseudo class selectors | used to define a special state
+
+mobile design | web design for mobile devices, only effective with media queries, effective if simple to use
+
+specificity | the most specific rule gets higher priority
