@@ -5,7 +5,8 @@ TABLE OF CONTENTS:
 2-Git Shell commands
 3-Basic knowledge (not coding)
 4-Git commands
-5-HTML
+5-HTML (Hyper Text Markup Language)
+6-CSS (Cascade Style Sheets)
 7-Verizon App Challenge
 
 CLI - command line interface
@@ -28,7 +29,19 @@ UX: user experience | organization, layout, etc
 add update delete (status symbols in git respectively)
 + ~ - 
 
-CSS - Cascade Style Sheets
+
+-HELPFUL LINKS-
+  https://css-tricks.com/how-css-selectors-work/
+  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
+  https://css-tricks.com/all-about-floats
+  kellishouts.github.io/css-properties/
+  https://fonts.google.com/
+  http://www.myhtmltutorials.com/line.html
+  https:// www.w3schools.com
+  www.text2mind.com
+  gomagames.com/blocks/blocks_sassy.html
+
+
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 (2)
 
@@ -204,16 +217,6 @@ Grouping Selectors
   ex: 
     h1, h2, p { color: red; }
 
-  
--HELPFUL LINKS-
-    https://css-tricks.com/how-css-selectors-work/
-    https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors
-    https://css-tricks.com/all-about-floats
-    kellishouts.github.io/css-properties/
-    https://fonts.google.com/
-    http://www.myhtmltutorials.com/line.html
-    https:// www.w3schools.com
-
 Font
 
 Margins
@@ -334,3 +337,52 @@ pseudo class selectors | used to define a special state
 mobile design | web design for mobile devices, only effective with media queries, effective if simple to use
 
 specificity | the most specific rule gets higher priority
+
+<<<JUST IN CASE>>>
+/*style mobile first, use meta viewport*/
+
+.container {
+  background-color: salmon;
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 0;
+  padding: 5px 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.block {
+  width: 100%;
+  margin: 20px 5px 20px 5px;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+
+
+/*medium screen 800px-1000px*/
+@media screen and (min-width:800px){
+  .container {
+    background-color:  #619EF3;
+
+  }
+}
+
+/*large screen min-width 1000px*/
+@media screen and(min-width: 1000px){
+  .container {
+    background-color: #619EF3;
+  }
+}
+
+
+@media screen and(min-width:900px){
+  .container {
+    background-color: orange;
+  }
+}
