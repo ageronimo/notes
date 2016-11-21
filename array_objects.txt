@@ -1,0 +1,31 @@
+// Arrays
+var tan = ["jon", "john", "cool", 3, 11, 7, 9, null, undefined, ["no shirt", 27, null] ];
+
+// accessing array within array
+console.log(tan[9]);
+
+//accessing element within array within array
+ console.log(tan[9][0]);
+
+
+
+ // Objects
+ //   good to have objects spaced out
+ var yoloSwag = {
+  isaaha : "beast",
+  hair : "sunshine",
+  sayings : ["wait what?", "hold me I'm cold", "yoloha"],
+  position : "Kicker"
+ }
+
+console.log(yoloSwag);
+// accesses properties within object
+
+console.log(yoloSwag.sayings[2]);
+// accesses "yoloha"
+
+console.log(yoloSwag["sayings"]);
+// accesses array
+
+console.log(yoloSwag["sayings"][1]);
+// accesses "hold me I'm cold" within array
