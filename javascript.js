@@ -8,6 +8,7 @@
 
 // = is assignment
 // == checks for eqality of 2 expressions
+// === strict equality, checks if expressions are of same value type too
 // variables can be reassigned
 
 var myName = "Jon";
@@ -18,6 +19,9 @@ var myAge = 12;
 
 var booleanExample = true;
 // boolean type (T or F)
+
+var notAssigned;
+// var w/out value stated can be assigned value later on
 
 /* Boolean Operators
 !== not equals
@@ -33,7 +37,7 @@ undefined
 NaN
 // not a number
 
-
+var myArray = ["one", 2, "seven", true];
 // array
 
 
@@ -80,18 +84,35 @@ createGreeting('Tan', 18);
 
 
 // ALIENS! project 
-var blue = 1000
-var green = 4000
-var red = 5000
+var blue = 1000;
+var green = 4000;
+var red = 5000;
 
 if (blue + green + red == 10000){
   if (green > 5000){
-    console.log("Ugh why are they so ugly")
+    console.log("Ugh why are they so ugly");
   }
   if (greed + red > 8000){
-    console.log("It's starting to feel a lot like Christmas")
+    console.log("It's starting to feel a lot like Christmas");
   }
   if (red + blue <= 3000){
-    console.log("We are sooo dead dude.")
+    console.log("We are sooo dead dude.");
   }
 }
+
+function Calculator (operation, firstVal, secondVal){
+  if (operation == "addition"){
+    return firstVal + secondVal;
+  } else if (operation == "subtraction"){
+    return firstVal - secondVal;
+  } else if (operation == "multiplication"){
+    return firstVal * secondVal;
+  } else if (operation == "division"){
+    return firstVal / secondVal;
+  } 
+}
+
+console.log(Calculator("addition", 1, 2));
+
+
+

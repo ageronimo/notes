@@ -1,3 +1,5 @@
+Notes on Arrays and Objects 
+
 // Arrays
 var tan = ["jon", "john", "cool", 3, 11, 7, 9, null, undefined, ["no shirt", 27, null] ];
 
