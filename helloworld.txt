@@ -388,6 +388,16 @@ h1 {
 }
 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
-(8) Javascript
+(8) More Git Stuff
 
+repo>master
+    >solutions(ex branch name)
 
+branch copies master, can be worked on
+
+pull from master before pushing branch
+
+master is kind of like production,
+  branches are like prototypes/development
+
+can allow you to experiment/not mess up original
